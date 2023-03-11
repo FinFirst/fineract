@@ -67,6 +67,7 @@ Instructions how to run for local development
 Run the following commands:
 1. `./gradlew createDB -PdbName=fineract_tenants`
 1. `./gradlew createDB -PdbName=fineract_default`
+1. `./gradlew migrateDatabase -PdbName=fineract_tenants`
 1. `./gradlew bootRun`
 
 
